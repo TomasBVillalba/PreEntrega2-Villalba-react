@@ -1,0 +1,93 @@
+.contenedor_productos {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 110px;
+}
+
+.contenedor_productos .producto {
+    border-radius: 6px;
+    width: 330px;
+    height: 450px;
+    box-shadow: 0 0 0.1rem rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition-property: box-shadow;
+    transition-duration: 0.3s;
+}
+
+
+
+.producto > img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover; }
+
+.informacion {
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-flow: column;
+    border-top: 1px solid #e6e6e6;
+    padding: 1em;
+}
+
+.precio {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #000;
+}
+
+.envio {
+    color: #00a650;
+    font-size: 1.1em;
+    padding-bottom: 7px;
+    font-weight: 800;
+}
+
+.descripcion {
+    font-weight: 300;
+    font-size: 1em;
+    font-weight: 800;
+    color: #000;
+}
+
+.producto:hover {
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+
+
+.tipo_de_envio {
+    background-color: #3483fa;
+    color: white;
+    font-weight: 600;
+    max-width: max-content;
+    padding: 0 0.2em;
+    border-radius: 3px;
+}
+
+.producto button  {
+    padding: 7px;
+    color: #ffffff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.producto button:hover {
+    opacity: 0.8;
+    transition: 1s;
+}
+
+a p {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
